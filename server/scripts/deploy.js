@@ -1,13 +1,22 @@
-const hre = require("hardhat");
+const main = async () => {
+  const contractFactory = await ethers.getContractFactory('DeTweetContract');
 
-async function main() {
-  const chai = await hre.ethers.getContractFactory("DeTweetContract");
-  const contract = await chai.deploy(); //instance of contract
+  // Deploy the contract once:
+  const contract = await contractFactory.deploy();
 
-  await contract.deployed();
-  console.log("Contract Deployed at : ", contract.address);
+  // Log the deployed contract's address:
+  console.log("Contract deployed to: ", contract.address);
+};
+
+
+const runMain = async() => {
+  try {
+    await main();
+    process.exit(0);
+  } catch(error) {
+    console.log(error);
+    process.exit(1);
+  }
 }
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+
+runMain();
