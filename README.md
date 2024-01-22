@@ -34,21 +34,21 @@ DeTweet is a radical departure from conventional, centralized social media metho
 
 ## Tech Stack
 **Front-End**
-- HTML
+- HTML 
 - CSS
-- React.Js
+- React.Js <a href="https://reactjs.org/docs/getting-started.html"> Documentation </a>
 - Javascript
 
 **Back-End**
-- Node.js
-- Hardhat
-- Alchemy.API
+- Node.js <a href="https://nodejs.org/en/docs/">Documentation </a>
+- Hardhat <a href="https://hardhat.org/getting-started/">Documentation </a>
+- Alchemy.API <a href="https://docs.alchemyapi.io/">Documentation </a>
 
 **Extensions**
-- Metamask
+- Metamask <a href="https://docs.metamask.io/"> Documentation </a>
 
 **Additional Software**
-- Remix IDE
+- Remix IDE <a href="https://remix-ide.readthedocs.io/"> Documentation </a>
 
 ## Applications
 **There could be a number of uses and advantages for DeTweet, or for decentralized social media platforms in general. The following are a few possible uses:**
