@@ -1,22 +1,12 @@
-const main = async () => {
-  const contractFactory = await ethers.getContractFactory('DeTweetContract');
+const hre = require("hardhat");
 
-  // Deploy the contract once:
-  const contract = await contractFactory.deploy();
-
-  // Log the deployed contract's address:
-  console.log("Contract deployed to: ", contract.address);
-};
-
-
-const runMain = async() => {
-  try {
-    await main();
-    process.exit(0);
-  } catch(error) {
-    console.log(error);
-    process.exit(1);
-  }
+async function main() {
+  const chai = await hre.ethers.getContractFactory("DeTweetContract");
+  const contract = await chai.deploy(); //instance of contract
+  
+  console.log("Address of contract:", contract.address);
 }
-
-runMain();
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
