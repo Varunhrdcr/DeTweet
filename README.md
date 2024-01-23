@@ -1,8 +1,6 @@
-<img src="https://assets.devfolio.co/hackathons/ede004c56bdb460bbebbb31d02fa876a/assets/logo/802.png" alt="DeTweet Logo" width="800">
-
 <h1 align="center">DeTweet: Decentralized Twitter</h1>
 
-<h2 align="center">Unchain your voice on a censorship-free, community-owned social network. Built on Ethereum - DeFy24|| Team HESOYAM</h2>
+<h2 align="center">Unchain your voice on a censorship-free, community-owned social network.<br> Built on Ethereum - DeFy24</h2>
 
 ------------
 
