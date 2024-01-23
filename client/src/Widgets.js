@@ -25,7 +25,7 @@ function Widgets() {
         />
 
         <TwitterShareButton
-          url={"https://facebook.com/cleverprogrammer"}
+          url={"https://daisy-steam-d3a.notion.site/Portfolio-b6a7baf7e6aa4e4db825096c14cf0b9c"}
           options={{ text: "#reactjs is awesome", via: "cleverqazi" }}
         />
       </div>
