@@ -16,7 +16,8 @@ function Widgets() {
       </div>
 
       <div className="widgets__widgetContainer">
-        <h2>What's happening</h2>
+        <h2>What's Happening</h2>
+        <br></br>
 
         <TwitterTimelineEmbed
           sourceType="profile"
