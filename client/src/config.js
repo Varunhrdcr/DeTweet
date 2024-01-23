@@ -1,2 +1,2 @@
-export const TwitterContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+export const TwitterContractAddress = "0xC1E35B0ff7C44dc81ABD667FaAFFE98e6EBB2AEc"
 // it is for imorting our ADDRESSES BC
