@@ -1,0 +1,16 @@
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240426-8272-6mmwsb sitelibdir\=./.gem.20240426-8272-6mmwsb clean
+
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240426-8272-6mmwsb sitelibdir\=./.gem.20240426-8272-6mmwsb
+generating stringio-x64-mingw-ucrt.def
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240426-8272-6mmwsb sitelibdir\=./.gem.20240426-8272-6mmwsb install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240426-8272-6mmwsb

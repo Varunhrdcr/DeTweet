@@ -1,0 +1,25 @@
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/psych-5.1.2/ext/psych
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240426-8272-t7f397 sitelibdir\=./.gem.20240426-8272-t7f397 clean
+cd libyaml && make clean
+/bin/sh: line 1: cd: libyaml: No such file or directory
+make: [Makefile:286: clean-so] Error 1 (ignored)
+
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240426-8272-t7f397 sitelibdir\=./.gem.20240426-8272-t7f397
+generating psych-x64-mingw-ucrt.def
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: C:/Users/Varun/.gem/ruby/3.1.0/gems/psych-5.1.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20240426-8272-t7f397 sitelibdir\=./.gem.20240426-8272-t7f397 install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20240426-8272-t7f397
