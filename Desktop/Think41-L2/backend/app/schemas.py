@@ -30,3 +30,8 @@ class ChatSession(ChatSessionBase):
 
     class Config:
         orm_mode = True
+
+class ChatMessageCreate(BaseModel):
+    role: str
+    content: str
+    auto_respond: Optional[bool] = False  # default False
